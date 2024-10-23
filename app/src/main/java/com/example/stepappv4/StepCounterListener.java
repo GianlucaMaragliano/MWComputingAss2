@@ -129,13 +129,13 @@ public class  StepCounterListener implements SensorEventListener {
 //                Log.d("ACC STEPS: ", String.valueOf(accStepCounter));
 
                 //TODO 15: Update the TextView with the number of steps calculated using ACC. sensor
-                stepCountsView.setText(String.valueOf(accStepCounter));
+//                stepCountsView.setText(String.valueOf(accStepCounter));
 
                 //TODO 17: Add the new steps to the database
-                saveStepInDatabase();
+//                saveStepInDatabase();
 
                 //TODO 19 (Your Turn): Set the progress of the CircularProgressIndicator variable
-                progressBar.setProgress(accStepCounter);
+//                progressBar.setProgress(accStepCounter);
 
             }
         }
